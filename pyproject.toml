@@ -1,0 +1,13 @@
+[project]
+name = "claimwise"
+version = "1.0.0"
+description = "AI-based insurance claim cost prediction and fraud detection"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scikit-learn", "matplotlib", "joblib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
